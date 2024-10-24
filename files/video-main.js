@@ -388,7 +388,8 @@ a=1===e?Object(ge.a)({l:"Normal",v:"Normal",n:"tasks",t:"first"})
 
 /*! speed options */
 s.a.createElement("span",null," ",Object(ge.a)({l:"slowdown",v:"замедление",t:"first",n:"tasks"})," ",t);
-r.setState({selectedRangeKey:e,isSlow:e<=2,isVerySlow:e<=3,isRegular:e<=1,isFaster:e<=4,isFast:5===e,text:a}),r.props.onPlaybackrateChange(n.playbackRate)})),H()(T()(r),"range",[]),r.range=r.ranges.find((function(e){return e.key===r.props.selectedRangeKey})),r.state={isRegular:r.props.isRegular,text:1===r.range.key?Object(ge.a)({l:"havent_slow_phrase",v:"Normal",n:"tasks",t:"first"}):
+r.setState({selectedRangeKey:e,isSlow:e<=2,isVerySlow:e<=3,isRegular:e<=1,isFaster:e<=4,isFast:5===e,text:a}),r.props.onPlaybackrateChange(n.playbackRate)})),H()(T()(r),"range",[]),r.range=r.ranges.find((function(e){return e.key===r.props.selectedRangeKey})),
+r.state={isRegular:r.props.isRegular,text:1===r.range.key?Object(ge.a)({l:"havent_slow_phrase",v:"Speed",n:"tasks",t:"first"}):
 s.a.createElement("span",null,Object(ge.a)({l:"slowdown",v:"замедление",t:"first",n:"tasks"})," ",r.range.text),selectedRangeKey:r.props.selectedRangeKey},r}return L()(n,[{key:"componentDidMount",value:function(){this.props.onPlaybackrateChange(this.range.playbackRate)}},
 
 {key:"render",value:function(){var e=this,t=q()("pe_play-button","button-style-4","b-phrases_block__listen_btn",{"pe_slow-mode":!this.state.isRegular},
