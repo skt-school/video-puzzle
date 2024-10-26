@@ -262,8 +262,8 @@ transform:translate(-50%,0)}
 .count-wrong{font-weight:bold;color:red}
 .timer-number{font-weight:bold;color:black}
 .finish-picture{width:250px;height:auto;background:transparent;}
-.final-result{font-size:36px;font-weight:bold;color:black;}
-.final-result-number{font-size:36px;font-weight:bold;color:red;}
+.final-result{font-size:60px;font-weight:bold;color:black;}
+.final-result-number{font-size:60px;font-weight:bold;color:red;}
 .clickTo{position:relative;padding-left:20px;padding-right:20px;font-size:20px;font-weight: bold;}
 .clickTo-2{position:relative;padding-left:20px;padding-right:20px;font-size:30px;font-weight: bold;}
 .show-button{text-align:center;}
@@ -336,7 +336,7 @@ border:1px;border-width:1px;border-radius:.375rem;padding: 5px;margin-right:0px;
 	background: #14a3b5;
 	z-index:101;
 }
-	.total-score{width:200px;height:auto;Background:#f8cc40;color:#ca3f35;font-size:36px;text-align:center;padding:10px 0px;}
+	.total-score{width:auto;height:auto;Background:#f8cc40;color:#ca3f35;font-size:60px;font-weight:bold;text-align:center;padding:0px 10px;}
 	.word_2 {font-size: 40px!important;cursor:pointer;}
 	.puzzle_solved .word_2 {font-size: 30px!important;cursor:pointer;}
 	.puzzle-hole {position: absolute!important;width:auto!important;padding:0px!important;}
