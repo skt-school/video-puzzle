@@ -553,7 +553,6 @@ function startTimer() {
 };
 
  function calculateAndDisplayResult() {
-    const finalAudio = new Audio('./media/finish.mp3');
 	const correct = parseInt(document.querySelector('#CounterCorrect').textContent);
     const wrong = parseInt(document.querySelector('#CounterWrong').textContent);
     const time = parseInt(document.querySelector('#TimerDisplay').textContent);
@@ -563,7 +562,7 @@ function startTimer() {
 	const element = document.getElementById("under-title");
 	setTimeout(function() {
                 window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-				finalAudio.play();
+				audio.playSound(window['HOME'] + '/finish.mp3');
             }, 500);
 	
 };
