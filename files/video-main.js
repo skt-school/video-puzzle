@@ -560,8 +560,8 @@ function startTimer() {
     const rounded = Math.ceil(result);
     document.getElementById('result').textContent = `${rounded}`;
 	const element = document.getElementById("under-title");
-	audio.playSound(window['HOME'] + '/finish.mp3');
 	setTimeout(function() {
+		        audio.playSound(window['HOME'] + '/finish.mp3');
                 window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });	
             }, 500);
 	
