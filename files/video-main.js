@@ -510,6 +510,7 @@ window.onload = function hideButtons(){
     const video = document.querySelector(".phrase_video");
     const speedButton = document.querySelector(".button_hide .slow-ratio__speed-change");
 	const playButton = document.querySelector(".button_hide .pe_play-button");
+	const resizeArrow = document.querySelector(".ui-resizable-se");
 	
     var clicked = 0;
 	var numberOfButtons = document.querySelectorAll(".puzzle__item--default").length;
@@ -520,6 +521,7 @@ window.onload = function hideButtons(){
 		
         playButton.style.opacity = '1';
 		speedButton.style.opacity = '1';
+		resizeArrow.classList.add('ui-icon-gripsmall-diagonal-se');
 		clicked = 1;
 		}
     });
@@ -528,12 +530,14 @@ window.onload = function hideButtons(){
 		playButton.className = 'pe_play-button2';	
         playButton.style.opacity = '0';
 		speedButton.style.opacity = '0';
+		resizeArrow.classList.remove('ui-icon-gripsmall-diagonal-se');
 		clicked = 0;  
     });
     video.addEventListener('pause', () => {
 		
 		playButton.style.opacity = '1';
 		speedButton.style.opacity = '1';
+		resizeArrow.classList.add('ui-icon-gripsmall-diagonal-se');
 		
     });
 };
