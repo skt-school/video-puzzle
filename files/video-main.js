@@ -376,9 +376,9 @@ selectedRangeKey:1,target:null,slowRangePopupToggle:function(){}});var hi,fi,_i=
 /*! **************** */
 
 /*! play-speed */
-"ranges",[{key:4,playbackRate:.5,text:"0.5"},{key:3,playbackRate:.75,text:"0.7"},{key:1,playbackRate:1,text:"1"},
-{key:2,playbackRate:1.5,text:"1.5"},
-{key:5,playbackRate:2,text:"2x"}]),H()(T()(r),"handleRangeChange",(function(e,t){var n=r.ranges.find((function(t){return t.key===e})),
+"ranges",[{key:4,playbackRate:.65,text:"0.6"},{key:3,playbackRate:.8,text:"0.8"},{key:1,playbackRate:1,text:"1"},
+{key:2,playbackRate:1.25,text:"1.2"},
+{key:5,playbackRate:1.5,text:"1.5"}]),H()(T()(r),"handleRangeChange",(function(e,t){var n=r.ranges.find((function(t){return t.key===e})),
 a=1===e?Object(ge.a)({l:"Normal",v:"Normal",n:"tasks",t:"first"})
 :2===e?Object(ge.a)({l:"Like Sui",v:"Like Sui",n:"tasks",t:"first"})
 :3===e?Object(ge.a)({l:"Like Kun",v:"Like Kun",n:"tasks",t:"first"})
